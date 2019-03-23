@@ -3,10 +3,12 @@
 
 class Student(object):
 
+    # @property，把一个getter方法变成属性
     @property
     def score(self):
         return self._score
 
+    # @score.setter，负责把一个setter方法变成属性赋值
     @score.setter
     def score(self, value):
         if not isinstance(value, int):

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+# 求绝对值的函数abs，只有一个参数
 x = abs(100)
 y = abs(-20)
 print(x, y)

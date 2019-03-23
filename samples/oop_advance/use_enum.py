@@ -3,6 +3,7 @@
 
 from enum import Enum, unique
 
+# @unique装饰器可以帮助我们检查保证没有重复值。
 @unique
 class Weekday(Enum):
     Sun = 0
@@ -15,6 +16,7 @@ class Weekday(Enum):
 
 day1 = Weekday.Mon
 
+# 既可以用成员名称引用枚举常量，又可以直接根据value的值获得枚举常量。
 print('day1 =', day1)
 print('Weekday.Tue =', Weekday.Tue)
 print('Weekday[\'Tue\'] =', Weekday['Tue'])

@@ -3,7 +3,10 @@
 
 import math
 
+# 定义一个函数要使用def语句，依次写出函数名、括号、括号中的参数和冒号:，
+# 然后，在缩进块中编写函数体，函数的返回值用return语句返回。
 def my_abs(x):
+    # 对参数类型做检查，只允许整数和浮点数类型的参数
     if not isinstance(x, (int, float)):
         raise TypeError('bad operand type')
     if x >= 0:

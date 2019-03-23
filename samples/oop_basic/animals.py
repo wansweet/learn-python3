@@ -21,6 +21,7 @@ a = Animal()
 d = Dog()
 c = Cat()
 
+# 判断一个变量是否是某个类型可以用isinstance()判断
 print('a is Animal?', isinstance(a, Animal))
 print('a is Dog?', isinstance(a, Dog))
 print('a is Cat?', isinstance(a, Cat))

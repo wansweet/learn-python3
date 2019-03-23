@@ -18,6 +18,7 @@ print('hasattr(obj, \'y\') =', hasattr(obj, 'y')) # 有属性'y'吗？
 print('getattr(obj, \'y\') =', getattr(obj, 'y')) # 获取属性'y'
 print('obj.y =', obj.y) # 获取属性'y'
 
+# 可以传入一个default参数，如果属性不存在，就返回默认值
 print('getattr(obj, \'z\') =',getattr(obj, 'z', 404)) # 获取属性'z'，如果不存在，返回默认值404
 
 f = getattr(obj, 'power') # 获取属性'power'
